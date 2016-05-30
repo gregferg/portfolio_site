@@ -38,6 +38,44 @@
 
 .about-photo {
   width: 50%;
+  height: 600px;
+  position: relative;
+}
+
+.about-photo img {
+  position: absolute;
+}
+
+.about-photo-normal {
+  z-index: 2;
+}
+
+.about-photo-red {
+  z-index: 1;
+  transition: all .25s ease-in-out;
+}
+.about-photo-yellow {
+  z-index: 0;
+  transition: all .25s ease-in-out;
+}
+
+.about-content:hover .about-photo-red {
+  transition: all .25s ease-in-out;
+
+  -moz-transform: translate(-2vw, 0vw);
+  -ms-transform: translate(-2vw, 0vw);
+  -o-transform: translate(-2vw, 0vw);
+  -webkit-transform: translate(-2vw, 0vw);
+  transform: translate(-2vw, 0vw);
+}
+
+.about-content:hover .about-photo-yellow {
+
+  -moz-transform: translate(-4vw, 0vw);
+  -ms-transform: translate(-4vw, 0vw);
+  -o-transform: translate(-4vw, 0vw);
+  -webkit-transform: translate(-4vw, 0vw);
+  transform: translate(-4vw, 0vw);
 }
 
 .about-content img{
