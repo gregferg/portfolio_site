@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about h2 {
+  font-size: 3em;
+  padding-bottom: 20px;
+  border-bottom: 4px solid black;
+}
+
+.about h4 {
+  font-size: 3em;
+}
+
+.about-container {
+  padding-top: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-paragraph-container {
+  width: 50%;
+}
+
+.about-paragraph {
+  width: 75%;
+}
+
+.about-photo {
+  width: 50%;
+}
+
+.about-content img{
+  width: 80%;
+}

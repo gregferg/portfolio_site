@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact h2 {
+  font-size: 3em;
+  padding-bottom: 20px;
+  border-bottom: 4px solid black;
+}
+
+.contact-container {
+  padding-top: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-content img{
+  width: 100%;
+}
+
+.contact-logo img {
+  width: 15vw;
+}
+
+.contact-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
