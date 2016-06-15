@@ -22,9 +22,15 @@
 
 .contact-content {
   height: calc(100vw / 15);
-  margin-top: 150px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.contact-content p {
+  margin-right: 30px;
+  font-size: 1.5em;
 }
 
 .contact-content img{
@@ -81,4 +87,8 @@
   flex-direction: row;
   justify-content: space-between;
   width: 50%;
+}
+
+.contact-logo-container p {
+
 }
